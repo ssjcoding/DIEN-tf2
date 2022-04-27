@@ -1,6 +1,6 @@
 # https://github.com/zhougr1993/DeepInterestNetwork/blob/master/din/Dice.py
 import tensorflow as tf
-import tensorflow.keras.layers as nn
+import tensorflow.python.keras.layers as nn
 
 class attention(tf.keras.layers.Layer):
     def __init__(self, keys_dim, dim_layers):
